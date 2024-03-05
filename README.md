@@ -79,8 +79,10 @@ In general DoRA finetuning on diffusion model is still _experimental_ and is lik
 
 ### DoRA hyperparameters settings
 > [NOTE that]
-> 💡 While fine-tuning with DoRA by utilizing the configuration of LoRA can already achieve better results most of the time, to achieve optimal performance compared to LoRA still requires adjustments to the hyperparameters. 
+> 💡 While fine-tuning with DoRA by utilizing the configuration of LoRA can already achieve better results most of the time, achieving optimal performance compared to LoRA still requires adjustments to the hyperparameters. 
+
 > We suggest starting with a slightly lower learning rate than that of LoRA, and users may also experiment with varying lora dropout ratios.
+
 > User may also start with half of the rank of the LoRA configuration which oftentime can already results in comparable or even superior accuracy compared to that of LoRA.
 
 ## Reproducing the results in the paper
