@@ -105,14 +105,13 @@ The code will be released under https://github.com/NVlabs soon and will contain 
 ## Contact
 Liu Shih-Yang: [shihyangl@nvidia.com](shihyangl@nvidia.com) or [sliuau@connect.ust.hk](sliuau@connect.ust.hk)
 
-## Citation
-If you find DoRA useful, please cite it by using the following BibTeX entry.
-
 ## Licenses
 Copyright © 2024, NVIDIA Corporation. All rights reserved.
 
 This work is made available under the NVIDIA Source Code License-NC. Click [here](https://github.com/nbasyl/DoRA/blob/main/LICENSE) to view a copy of this license.
 
+## Citation
+If you find DoRA useful, please cite it by using the following BibTeX entry.
 ```bibtex
 @article{liu2024dora,
   title={DoRA: Weight-Decomposed Low-Rank Adaptation},
