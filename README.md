@@ -103,7 +103,7 @@ The code will be released under https://github.com/NVlabs soon and will contain 
 3. Use the hyperparamter specified in the paper for finetuning LLaMA-7B/13B.
 
 ## Contact
-Liu Shih-Yang: [shihyangl@nvidia.com](shihyangl@nvidia.com) or [sliuau@connect.ust.hk](sliuau@connect.ust.hk)
+Shih-Yang Liu: [shihyangl@nvidia.com](shihyangl@nvidia.com) or [sliuau@connect.ust.hk](sliuau@connect.ust.hk)
 
 ## Licenses
 Copyright © 2024, NVIDIA Corporation. All rights reserved.
