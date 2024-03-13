@@ -60,7 +60,7 @@ config = LoraConfig(
 Please refer to the official [documentation](https://huggingface.co/docs/peft/en/developer_guides/lora#weight-decomposed-low-rank-adaptation-dora) for more details.
 
 ### HuggingFace Diffuser
-You can also toy with DoRA on finetuning Diffusion Model. See (huggingface/diffusers)[https://github.com/huggingface/diffusers/tree/main/examples/advanced_diffusion_training#dora-training]. Another good tutorial would be this [collab notebook](https://colab.research.google.com/drive/134mt7bCMKtCYyYzETfEGKXT1J6J50ydT?usp=sharing#scrollTo=23d6bb49-3469-4e23-baf5-25b2344b599d) from [Linoy Tsaban](https://twitter.com/linoy_tsaban).
+You can also toy with DoRA on finetuning Diffusion Model. See [huggingface/diffusers](https://github.com/huggingface/diffusers/tree/main/examples/advanced_diffusion_training#dora-training). Another good tutorial would be this [collab notebook](https://colab.research.google.com/drive/134mt7bCMKtCYyYzETfEGKXT1J6J50ydT?usp=sharing#scrollTo=23d6bb49-3469-4e23-baf5-25b2344b599d) from [Linoy Tsaban](https://twitter.com/linoy_tsaban).
 
 In general DoRA finetuning on diffusion model is still _experimental_ and is likely to require different hyperparameter values to perform best compared to LoRA.
 > Specifically, people have noticed 2 differences to take into account your training: 
