@@ -24,6 +24,8 @@ on fine-tuning LLaMA, LLaVA, and VL-BART
 on various downstream tasks, such as commonsense reasoning, visual instruction tuning, and
 image/video-text understanding
 
+## News
+2024/3/13: QDoRA: DoRA with BnB quantization and Conv2D DoRA is now supported on the Huggingface PEFT package!
 
 ## Quick Start and some tricks regarding finetuing with DoRA
 ### HuggingFace PEFT
