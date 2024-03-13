@@ -40,21 +40,7 @@ from peft import LoraConfig, get_peft_model
 
 # Initialize DoRA configuration
 config = LoraConfig(
-    r=8, 
-    lora_alpha=16, 
-    target_modules=[
-      "q_proj",
-      "k_proj",
-      "v_proj",
-      "o_proj",
-      "gate_proj",
-      "up_proj",
-      "down_proj",
-    ],
-    lora_dropout=0.1,
-    bias="none",
-    task_type="CAUSAL_LM",
-    use_dora=True
+    use_dora=True, ...
 )
 ```
 Please refer to the official [documentation](https://huggingface.co/docs/peft/en/developer_guides/lora#weight-decomposed-low-rank-adaptation-dora) for more details.
