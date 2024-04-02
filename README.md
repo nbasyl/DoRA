@@ -15,7 +15,8 @@ The official implementation of [DoRA](https://arxiv.org/abs/2402.09353) can be f
 Shih-Yang Liu, Chien-Yi Wang, Hongxu Yin, Pavlo Molchanov, Yu-Chiang Frank Wang, Kwang-Ting Cheng, Min-Hung Chen
 
 Paper: https://arxiv.org/abs/2402.09353
-Project page://https://nbasyl.github.io/DoRA-project-page/
+
+Project page: https://nbasyl.github.io/DoRA-project-page/
 
 DoRA decomposes the pre-trained weight into two components, magnitude and direction, for fine-tuning, specifically employing LoRA for directional updates to efficiently minimize the number of trainable parameters. By employing DoRA, we enhance both
 the learning capacity and training stability of
