@@ -89,7 +89,7 @@ The code will be released under https://github.com/NVlabs soon and will contain 
 
 ### For those who really wish to try reproducing the results of the paper before our code is released:
 1. You can start with reproducing the results in table 1, try replacing the PEFT package in the [LLM-Adapter](https://github.com/AGI-Edgerunners/LLM-Adapters) code base with the latest version of PEFT which supports DoRA finetuning. 
-2. Please install the python packages with [the provided requirements.txt](https://github.com/nbasyl/DoRA/commonsense_reasoning/requirements.txt), since there are some issue with the latest version of accelerate and transformer package.
+2. Please install the python packages with [the provided requirements.txt](https://github.com/nbasyl/DoRA/blob/main/commonsense_reasoning/requirements.txt), since there are some issue with the latest version of accelerate and transformer package.
 3. Use the hyperparamter specified in the paper for finetuning LLaMA-7B/13B.
 
 ## Contact
