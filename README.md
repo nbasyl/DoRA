@@ -8,7 +8,8 @@
 
 The official implementation of [DoRA](https://arxiv.org/abs/2402.09353) can be found [here](https://github.com/huggingface/peft/blob/main/src/peft/tuners/lora/layer.py) and is now fully supported by HuggingFace PEFT.
 
->  The code and checkpoints for reproducing the results of the four experiments reported in the paper will be released soon. Please be aware that releasing the code and checkpoints to the public necessitates an internal review process within the company, which can be time-consuming. We appreciate your understanding on this matter.
+> [!IMPORTANT]
+> The code and checkpoints for reproducing the results of the four experiments reported in the paper will be released soon. Please be aware that releasing the code and checkpoints to the public necessitates an internal review process within the company, which can be time-consuming. We appreciate your understanding on this matter.
 
 ## DoRA: Weight-Decomposed Low-Rank Adaptation
 
@@ -47,6 +48,8 @@ Please refer to the official [documentation](https://huggingface.co/docs/peft/en
 You can also toy with DoRA on finetuning diffusion models. See [huggingface/diffusers](https://github.com/huggingface/diffusers/tree/main/examples/advanced_diffusion_training#dora-training). Another good tutorial would be this [Colab notebook](https://colab.research.google.com/drive/134mt7bCMKtCYyYzETfEGKXT1J6J50ydT?usp=sharing#scrollTo=23d6bb49-3469-4e23-baf5-25b2344b599d) from [Linoy Tsaban](https://twitter.com/linoy_tsaban).
 
 In general, DoRA finetuning on diffusion model is still _experimental_ and is likely to require different hyperparameter values to perform best compared to LoRA.
+
+> [!NOTE]
 > Specifically, people have noticed 2 differences to take into account your training: 
 > 1. **LoRA seem to converge faster than DoRA** (so a set of parameters that may lead to overfitting when training a LoRA may be working well for a DoRA)
 > 2. **DoRA quality superior to LoRA especially in lower ranks** the difference in quality of DoRA of rank 8 and LoRA of rank 8 appears to be more significant than when training ranks of 32 or 64 for example.  
