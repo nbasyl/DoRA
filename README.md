@@ -103,9 +103,10 @@ This work is made available under the NVIDIA Source Code License-NC. Click [here
 If you find DoRA useful, please cite it by using the following BibTeX entry.
 ```bibtex
 @article{liu2024dora,
-  title={DoRA: Weight-Decomposed Low-Rank Adaptation},
+  title={{DoRA}: Weight-Decomposed Low-Rank Adaptation},
   author={Liu, Shih-Yang and Wang, Chien-Yi and Yin, Hongxu and Molchanov, Pavlo and Wang, Yu-Chiang Frank and Cheng, Kwang-Ting and Chen, Min-Hung},
-  journal={arXiv preprint arXiv:2402.09353},
+  booktitle={arXiv:2402.09353},
+  url={arxiv.org/abs/2402.09353},
   year={2024}
 }
 ```
