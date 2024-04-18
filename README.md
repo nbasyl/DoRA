@@ -73,7 +73,7 @@ In general, DoRA finetuning on diffusion model is still _experimental_ and is li
 
 ## Reproducing the results in the paper
 
-The code will be released under https://github.com/NVlabs soon and will contain four directories:
+The code will be released under https://github.com/NVlabs/DoRA soon and will contain four directories:
 
 `./commonsense_reasoning` contains the code to finetune LLaMA-7B/13B using DoRA on the commonsense reasoning tasks. This directory is modified based on [LLM-Adapter](https://github.com/AGI-Edgerunners/LLM-Adapters).
 
