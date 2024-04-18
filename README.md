@@ -8,7 +8,7 @@
 
 The official implementation of [DoRA](https://arxiv.org/abs/2402.09353) can be found [here](https://github.com/huggingface/peft/blob/main/src/peft/tuners/lora/layer.py) and is now fully supported by HuggingFace PEFT.
 
->  The code and checkpoints for reproducing the results of the four experiments reported in the paper will be released soon. Please be aware that releasing the code and checkpoints to the public necessitates an internal review process within the company, which can be time-consuming. We appreciate your understanding on this matter.
+#  The code and checkpoints for reproducing the results of the four experiments reported in the paper are now released under [NVlabs/DoRA](https://github.com/NVlabs/DoRA)!!
 
 ## DoRA: Weight-Decomposed Low-Rank Adaptation
 
